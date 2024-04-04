@@ -11,6 +11,7 @@ public class PasswordCheckerTest {
         assertTrue( PasswordChecker.checkPasswordComplexity("Password123!") );
     }
 
+
     @Test
     void testComplexPasswordWithLongLength() {
         Assertions.assertTrue(PasswordChecker.checkPasswordComplexity("LongPassword1!"));
