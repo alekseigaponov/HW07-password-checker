@@ -34,6 +34,7 @@ public class PasswordCheckerTest {
     @Test
     void testComplexPasswordWithRepeatedSpecialChars() {
         Assertions.assertTrue(PasswordChecker.checkPasswordComplexity("P@$$w0rd!"));
+
     }
 
 }
